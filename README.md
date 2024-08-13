@@ -1,10 +1,14 @@
-[![Actions Status](https://github.com/timvink/mkdocs-enumerate-headings-plugin/workflows/pytest/badge.svg)](https://github.com/timvink/mkdocs-enumerate-headings-plugin/actions)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mkdocs-enumerate-headings-plugin)
-![PyPI](https://img.shields.io/pypi/v/mkdocs-enumerate-headings-plugin)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/mkdocs-enumerate-headings-plugin)
-[![codecov](https://codecov.io/gh/timvink/mkdocs-enumerate-headings-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/timvink/mkdocs-enumerate-headings-plugin)
-![GitHub contributors](https://img.shields.io/github/contributors/timvink/mkdocs-enumerate-headings-plugin)
-![PyPI - License](https://img.shields.io/pypi/l/mkdocs-enumerate-headings-plugin)
+# Rowden fork of `mkdocs-enumerate-headings-plugin`
+This adds a feature to disable counting h1 headings in numbering.
+
+To use, in requirements.txt:
+```
+mkdocs-enumerate-headings-plugin @ git+https://github.com/rowdentech/mkdocs-enumerate-headings-plugin@rowden
+```
+
+`master` is kept clean to allow us to pull in upstream changes easily. Any futher modification here should target the `rowden` branch.
+
+---
 
 # mkdocs-enumerate-headings-plugin
 
